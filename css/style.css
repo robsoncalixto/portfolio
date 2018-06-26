@@ -2,27 +2,67 @@
   box-sizing: border-box;
 }
 
-.menu-left{
-  border: 2px solid brown;
-  width: 22.5rem;
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
+.title-autor { 
+  font-size: 1.5em;  
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1em; 
+  text-align: justify;
+}
+
+.center {
+  text-align: center;
+}
+
+.menu-left {
+  color: #fff;
+  width: 22%;
+  left: 0;
+  top: 0;
   height: 100%;
   position: fixed;
   padding: 0%;
   margin: 0%;
+  background-color: #282c34;
+  border-top: 5px solid #61afef;
 }
 
-.profile{
-  margin: 0% auto;
+.profile {
+  padding: 10%; 
 }
 
-profile {
-    width: 8rem;
-   
-}
-
-.profile-img{
-  width: 6rem;
+.profile-img {
+  width: 25%;
+  border: 2px  solid #fff;
   border-radius: 50%;
-  border: 2px solid #032;
-  box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+}
+
+.icons-social {
+  margin: 0;
+  padding: 0;
+}
+
+.icons-social > li {
+  list-style-type: none;
+  display: inline;
+}
+
+.icons-social li > a > img {
+  width: 10%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

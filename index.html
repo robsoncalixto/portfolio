@@ -4,24 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Portfolio</title>
 </head>
 <body>
     <aside class="menu-left">
-        <div class="profile">
-            <img class="profile-img" src="./img/profile.jpg" alt="image of profile">
-           <p>
+        <div class="profile center">
+                <img class="profile-img"
+                     src="assets/img/profile-large.jpg"
+                     srcset="assets/img/profile-large.jpg 800w,
+                             assets/img/profile-medium.jpg 600w,
+                             assets/img/profile-small.jpg 350w"
+                     sizes="100vw"
+                     alt="Robson Calixto">
+            <p class="title-autor">Robson Calixto</p>
+            <hr/>
+            <p class="description">
+                <i class="mdi-twitter mdi-24px social_network">face</i>
                 Sed tincidunt nisi in nulla volutpat, sed varius odio molestie. Aliquam erat volutpat.
                 Aliquam sit amet velit ac est hendrerit lacinia. Praesent et pellentesque erat.
                 Maecenas pulvinar urna eu dui ornare ullamcorper.
-            </p>
-       
-            <h3>Redes sociais</h3>
+            </p> 
+            <hr/>
+            <section>      
+                <h3>Redes sociais</h3>
+                <ul class="icons-social">
+                    <li>
+                      <a href="http://pt-br.facebook.com/webcodefree">
+                        <img src="assets/img/facebook.svg" alt="icon facebook">
+                      </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/" >
+                            <img src="assets/img/github.svg" alt="icon github">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/">
+                            <img src="assets/img/twitter.svg" alt="icon twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://br.linkedin.com/in/" >
+                            <img src="assets/img/linkedin.svg" alt="icon linkedin">
+                        </a>
+                    </li>
+                </ul>
+            </section>
         </div>
     </aside>
     <article>
     </article>
-    <footer></footer>    
+    <footer class="footer center">
+        <p>Feito com <3 por Robson Calixto</p> 
+    </footer>    
 </body>
 </html>
