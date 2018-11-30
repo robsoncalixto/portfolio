@@ -1,0 +1,27 @@
+{
+  "locals": {
+    "url": "https://rcalixto.net",
+    "name": "Robson Calixto blog",
+    "owner": "Robson Calixto",
+    "description": "A saga de um programador...",
+    "title" : "Desenvolvedor em construção"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "pug": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 10
+  }
+}
